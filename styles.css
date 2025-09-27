@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(250, 137, 175);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(245, 245, 245);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(83, 6, 67);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    font-size: medium;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.subject{
+    background-color: rgb(214, 16, 240);
+    width: 50%;
+    color: rgb(219, 219, 219);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flex-subjects{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+
+}
+
+.life{
+}
+
+section {
+    background-color: rgb(214, 16, 240);
+    color: white;
+    font-style:italic;
+    width: 50%;
+    text-align: center;
+    margin-left:25%;
+}
+
+#unique {
+    display:flex;
+    flex-direction: column;
+ width: 50%;
+ margin-left: 25%;
+ border-style: solid;
+ background-image: linear-gradient(to right, rgb(255, 141, 141) ,rgb(145, 11, 138));
+
+}
+
+ul li {
+    list-style-type: none;
+
+}
+ul{
+    border-radius: 10px;
+        background-color: rgb(194, 1, 114);
+    width: 25%;
+    margin-left:35%;
+}
+
+
+.horizontal-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
